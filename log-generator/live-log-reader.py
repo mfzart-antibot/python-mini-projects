@@ -1,4 +1,5 @@
 import sys
+import json
 import time
 from collections import deque
 
@@ -32,6 +33,9 @@ with open(log_file, "r") as f:
         now = time.time()  # jeśli to error, zapisz czas wystąpienia
         if "ERROR" in line:
             error_times.append(now)
+            event = {"timestamp": now, "message": line}
+            with open("errors.json", "a") as file:
+                file.write(json.dumps(event) + "\n")
 
         # usuń stare ERRORy spoza okna czasu (starsze niż WINDOW_SEC)
         while error_times and (now - error_times[0] > WINDOW_SEC):
