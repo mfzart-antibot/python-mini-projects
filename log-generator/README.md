@@ -6,9 +6,9 @@ logs and reads them in real time.
 ## Usage
 
 python log-generator-to-file.py
-python live-log-reader.py
+python live-log-reader.py system.log
 
-Features:
+## Features:
 - generate logs
 - read logs live
 - simulate application logs
