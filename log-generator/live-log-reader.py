@@ -1,16 +1,23 @@
+import sys
 import time
 from collections import deque
 
-THRESHOLD = 5    #ile ERRORÓW
-WINDOW_SEC = 60  #... w jakim oknie czasowym (sekundy)
-COOLDOWN = 30    #co ile sekund max powtórzyć alert
+if len(sys.argv) < 2:
+    print("Usage: python live-log-reader.py <log_file>")
+    sys.exit()
 
-error_times = deque()   #tu trzymam czas wystąpień ERROR
+log_file = sys.argv[1]
+
+THRESHOLD = 5  # ile ERRORÓW
+WINDOW_SEC = 60  # ... w jakim oknie czasowym (sekundy)
+COOLDOWN = 30  # co ile sekund max powtórzyć alert
+
+error_times = deque()  # tu trzymam czas wystąpień ERROR
 last_alert_time = 0
 
-with open("system.log", "r") as f:
+with open(log_file, "r") as f:
 
-    f.seek(0,2) #na koniec pliku
+    f.seek(0, 2)  # na koniec pliku
 
     while True:
         line = f.readline()
@@ -22,15 +29,15 @@ with open("system.log", "r") as f:
         line = line.strip()
         print(line)
 
-        now = time.time()  #jeśli to error, zapisz czas wystąpienia
+        now = time.time()  # jeśli to error, zapisz czas wystąpienia
         if "ERROR" in line:
             error_times.append(now)
 
-        #usuń stare ERRORy spoza okna czasu (starsze niż WINDOW_SEC)
+        # usuń stare ERRORy spoza okna czasu (starsze niż WINDOW_SEC)
         while error_times and (now - error_times[0] > WINDOW_SEC):
             error_times.popleft()
 
-        #policz ERRORy w oknie
+        # policz ERRORy w oknie
         errors_in_window = len(error_times)
 
         # ALERT: tylko jeśli przekroczono próg i minął cooldown
