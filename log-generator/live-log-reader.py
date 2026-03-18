@@ -33,6 +33,7 @@ with open(log_file, "r") as f:
         now = time.time()  # jeśli to error, zapisz czas wystąpienia
         if "ERROR" in line:
             error_times.append(now)
+            # zrzucanie ERROROw do zewnetrznego JSONa
             event = {"timestamp": now, "message": line}
             with open("errors.json", "a") as file:
                 file.write(json.dumps(event) + "\n")
