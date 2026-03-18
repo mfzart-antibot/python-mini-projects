@@ -3,13 +3,13 @@ import json
 import time
 from collections import deque
 
-if len(sys.argv) < 2:
-    print("Usage: python live-log-reader.py <log_file>")
+if len(sys.argv) < 3:
+    print("Usage: python live-log-reader.py <log_file> <ERROR_THRESHOLD>")
     sys.exit()
 
 log_file = sys.argv[1]
 
-THRESHOLD = 5  # ile ERRORÓW
+THRESHOLD = int(sys.argv[2])  # ile ERRORÓW
 WINDOW_SEC = 60  # ... w jakim oknie czasowym (sekundy)
 COOLDOWN = 30  # co ile sekund max powtórzyć alert
 

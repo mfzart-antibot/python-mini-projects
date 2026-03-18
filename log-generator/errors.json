@@ -1,60 +1,19 @@
-{"timestamp": 1773832435.9654272, "message": "2026-03-18 12:13:55 | ERROR | Event #3012 | Database connection failed"}
-{"timestamp": 1773832500.7547305, "message": "2026-03-18 12:15:00 | ERROR | Event #7340 | Timeout while contacting service"}
-{"timestamp": 1773832613.3362758, "message": "2026-03-18 12:16:53 | ERROR | Event #4030 | Timeout while contacting service"}
-{"timestamp": 1773832614.3502617, "message": "2026-03-18 12:16:54 | ERROR | Event #1573 | Database connection failed"}
-{"timestamp": 1773832614.8557591, "message": "2026-03-18 12:16:54 | ERROR | Event #1178 | File not found"}
-{"timestamp": 1773832615.8671026, "message": "2026-03-18 12:16:55 | ERROR | Event #8521 | File not found"}
-{"timestamp": 1773832616.3749225, "message": "2026-03-18 12:16:56 | ERROR | Event #1194 | Database connection failed"}
-{"timestamp": 1773832617.3849177, "message": "2026-03-18 12:16:57 | ERROR | Event #4188 | Database connection failed"}
-{"timestamp": 1773832619.8430843, "message": "2026-03-18 12:16:59 | ERROR | Event #6084 | Database connection failed"}
-{"timestamp": 1773832620.3485205, "message": "2026-03-18 12:17:00 | ERROR | Event #4026 | Database connection failed"}
-{"timestamp": 1773832621.8599322, "message": "2026-03-18 12:17:01 | ERROR | Event #2623 | Database connection failed"}
-{"timestamp": 1773832625.8911126, "message": "2026-03-18 12:17:05 | ERROR | Event #9587 | Database connection failed"}
-{"timestamp": 1773832626.395244, "message": "2026-03-18 12:17:06 | ERROR | Event #6026 | Database connection failed"}
-{"timestamp": 1773832626.9964025, "message": "2026-03-18 12:17:06 | ERROR | Event #8676 | Database connection failed"}
-{"timestamp": 1773832627.486656, "message": "2026-03-18 12:17:07 | ERROR | Event #8465 | File not found"}
-{"timestamp": 1773832628.4168303, "message": "2026-03-18 12:17:08 | ERROR | Event #9006 | Database connection failed"}
-{"timestamp": 1773832629.4262698, "message": "2026-03-18 12:17:09 | ERROR | Event #4222 | Database connection failed"}
-{"timestamp": 1773832630.434542, "message": "2026-03-18 12:17:10 | ERROR | Event #5560 | Database connection failed"}
-{"timestamp": 1773832634.4688394, "message": "2026-03-18 12:17:14 | ERROR | Event #2278 | Timeout while contacting service"}
-{"timestamp": 1773832635.4788926, "message": "2026-03-18 12:17:15 | ERROR | Event #6181 | Timeout while contacting service"}
-{"timestamp": 1773832639.0174465, "message": "2026-03-18 12:17:18 | ERROR | Event #1052 | Timeout while contacting service"}
-{"timestamp": 1773832641.4634936, "message": "2026-03-18 12:17:21 | ERROR | Event #7187 | Timeout while contacting service"}
-{"timestamp": 1773832643.5024183, "message": "2026-03-18 12:17:23 | ERROR | Event #9483 | Database connection failed"}
-{"timestamp": 1773832646.5298705, "message": "2026-03-18 12:17:26 | ERROR | Event #4883 | File not found"}
-{"timestamp": 1773832652.53753, "message": "2026-03-18 12:17:32 | ERROR | Event #6395 | Timeout while contacting service"}
-{"timestamp": 1773832653.0218527, "message": "2026-03-18 12:17:33 | ERROR | Event #6023 | Database connection failed"}
-{"timestamp": 1773832655.5454357, "message": "2026-03-18 12:17:35 | ERROR | Event #4600 | File not found"}
-{"timestamp": 1773832656.0516706, "message": "2026-03-18 12:17:36 | ERROR | Event #9447 | Database connection failed"}
-{"timestamp": 1773832656.5601454, "message": "2026-03-18 12:17:36 | ERROR | Event #1159 | File not found"}
-{"timestamp": 1773832660.605088, "message": "2026-03-18 12:17:40 | ERROR | Event #8383 | Database connection failed"}
-{"timestamp": 1773832661.1123345, "message": "2026-03-18 12:17:41 | ERROR | Event #3635 | Timeout while contacting service"}
-{"timestamp": 1773832662.6251378, "message": "2026-03-18 12:17:42 | ERROR | Event #9968 | Timeout while contacting service"}
-{"timestamp": 1773832664.6479354, "message": "2026-03-18 12:17:44 | ERROR | Event #3443 | Database connection failed"}
-{"timestamp": 1773832665.1608346, "message": "2026-03-18 12:17:45 | ERROR | Event #3739 | Timeout while contacting service"}
-{"timestamp": 1773832665.667811, "message": "2026-03-18 12:17:45 | ERROR | Event #1766 | Database connection failed"}
-{"timestamp": 1773832666.115082, "message": "2026-03-18 12:17:46 | ERROR | Event #6194 | Timeout while contacting service"}
-{"timestamp": 1773832666.6186478, "message": "2026-03-18 12:17:46 | ERROR | Event #2035 | Timeout while contacting service"}
-{"timestamp": 1773832668.1282358, "message": "2026-03-18 12:17:48 | ERROR | Event #2609 | File not found"}
-{"timestamp": 1773832669.1383798, "message": "2026-03-18 12:17:49 | ERROR | Event #5188 | File not found"}
-{"timestamp": 1773832670.6540623, "message": "2026-03-18 12:17:50 | ERROR | Event #5680 | Timeout while contacting service"}
-{"timestamp": 1773832671.1611676, "message": "2026-03-18 12:17:51 | ERROR | Event #3124 | Timeout while contacting service"}
-{"timestamp": 1773832674.2143877, "message": "2026-03-18 12:17:54 | ERROR | Event #9903 | Database connection failed"}
-{"timestamp": 1773832675.2311068, "message": "2026-03-18 12:17:55 | ERROR | Event #6386 | Database connection failed"}
-{"timestamp": 1773832676.2379522, "message": "2026-03-18 12:17:56 | ERROR | Event #1848 | Database connection failed"}
-{"timestamp": 1773832676.7473075, "message": "2026-03-18 12:17:56 | ERROR | Event #3166 | Timeout while contacting service"}
-{"timestamp": 1773832678.7084208, "message": "2026-03-18 12:17:58 | ERROR | Event #7084 | Database connection failed"}
-{"timestamp": 1773832679.2189574, "message": "2026-03-18 12:17:59 | ERROR | Event #4596 | Timeout while contacting service"}
-{"timestamp": 1773832682.251409, "message": "2026-03-18 12:18:02 | ERROR | Event #8415 | Timeout while contacting service"}
-{"timestamp": 1773832682.7558355, "message": "2026-03-18 12:18:02 | ERROR | Event #2599 | Timeout while contacting service"}
-{"timestamp": 1773832683.2626755, "message": "2026-03-18 12:18:03 | ERROR | Event #6268 | Database connection failed"}
-{"timestamp": 1773832687.2436512, "message": "2026-03-18 12:18:07 | ERROR | Event #5286 | File not found"}
-{"timestamp": 1773832689.7782927, "message": "2026-03-18 12:18:09 | ERROR | Event #8909 | Timeout while contacting service"}
-{"timestamp": 1773832690.7872329, "message": "2026-03-18 12:18:10 | ERROR | Event #4119 | Database connection failed"}
-{"timestamp": 1773832692.2704086, "message": "2026-03-18 12:18:12 | ERROR | Event #4394 | Database connection failed"}
-{"timestamp": 1773832695.2968268, "message": "2026-03-18 12:18:15 | ERROR | Event #8143 | Database connection failed"}
-{"timestamp": 1773832698.8527622, "message": "2026-03-18 12:18:18 | ERROR | Event #2041 | File not found"}
-{"timestamp": 1773832700.8098562, "message": "2026-03-18 12:18:20 | ERROR | Event #1608 | Database connection failed"}
-{"timestamp": 1773832701.3194187, "message": "2026-03-18 12:18:21 | ERROR | Event #6626 | Database connection failed"}
-{"timestamp": 1773832702.3277888, "message": "2026-03-18 12:18:22 | ERROR | Event #3815 | File not found"}
-{"timestamp": 1773832702.8341477, "message": "2026-03-18 12:18:22 | ERROR | Event #7480 | File not found"}
+{"timestamp": 1773834426.8522415, "message": "2026-03-18 12:47:06 | ERROR | Event #5412 | File not found"}
+{"timestamp": 1773834429.876451, "message": "2026-03-18 12:47:09 | ERROR | Event #3625 | Database connection failed"}
+{"timestamp": 1773834432.3945837, "message": "2026-03-18 12:47:12 | ERROR | Event #4791 | Timeout while contacting service"}
+{"timestamp": 1773834435.442226, "message": "2026-03-18 12:47:15 | ERROR | Event #2007 | Timeout while contacting service"}
+{"timestamp": 1773834436.9622064, "message": "2026-03-18 12:47:16 | ERROR | Event #6177 | File not found"}
+{"timestamp": 1773834437.9750948, "message": "2026-03-18 12:47:17 | ERROR | Event #6005 | Database connection failed"}
+{"timestamp": 1773834440.9993105, "message": "2026-03-18 12:47:20 | ERROR | Event #2020 | Timeout while contacting service"}
+{"timestamp": 1773834444.4609244, "message": "2026-03-18 12:47:24 | ERROR | Event #1770 | Timeout while contacting service"}
+{"timestamp": 1773834446.981311, "message": "2026-03-18 12:47:26 | ERROR | Event #7225 | Database connection failed"}
+{"timestamp": 1773834447.9903796, "message": "2026-03-18 12:47:27 | ERROR | Event #2448 | Database connection failed"}
+{"timestamp": 1773834449.5046039, "message": "2026-03-18 12:47:29 | ERROR | Event #2968 | Database connection failed"}
+{"timestamp": 1773834450.5115283, "message": "2026-03-18 12:47:30 | ERROR | Event #1955 | Database connection failed"}
+{"timestamp": 1773834452.5372617, "message": "2026-03-18 12:47:32 | ERROR | Event #1435 | Timeout while contacting service"}
+{"timestamp": 1773834453.5457783, "message": "2026-03-18 12:47:33 | ERROR | Event #3554 | Database connection failed"}
+{"timestamp": 1773834454.0535724, "message": "2026-03-18 12:47:33 | ERROR | Event #9999 | File not found"}
+{"timestamp": 1773834455.0633054, "message": "2026-03-18 12:47:34 | ERROR | Event #9787 | Database connection failed"}
+{"timestamp": 1773834456.0733852, "message": "2026-03-18 12:47:35 | ERROR | Event #8912 | Timeout while contacting service"}
+{"timestamp": 1773834457.5055096, "message": "2026-03-18 12:47:37 | ERROR | Event #5447 | File not found"}
+{"timestamp": 1773834459.5215745, "message": "2026-03-18 12:47:39 | ERROR | Event #6115 | Database connection failed"}
