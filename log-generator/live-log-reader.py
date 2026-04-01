@@ -1,3 +1,7 @@
+"""
+Terminal activated script that reads the given LOG file and prints alert if too many errors within last 60Sec
+"""
+
 import sys
 import json
 import time
