@@ -39,7 +39,7 @@ with open("input_urls.txt", "r", encoding="UTF-8") as file:
                 working_pages.append(url)
 
         except requests.RequestException:
-            pass
+            print("Error while checking URL:", url)
 
 with open("working_pages.txt", "w") as outcome:  # saving outcome file
     outcome.write("\n".join(working_pages) + "\n")
